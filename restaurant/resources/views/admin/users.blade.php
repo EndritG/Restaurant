@@ -12,7 +12,7 @@
     <div>
         @include("admin.navbar")
         <div style="position: absolute; top: 28px; left: 250px">
-            <table>
+            <table bgcolor="gray" align="center">
                 <tr>
                     <th style="padding: 30px">Name</th>
                     <th style="padding: 30px">Email</th>
