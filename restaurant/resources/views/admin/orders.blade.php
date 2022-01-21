@@ -14,6 +14,11 @@
     <br>
     <br>
 <h1 align="center">Customer Orders</h1><br>
+    <form action="{{url('/search')}}" method="get">
+        @csrf
+        <input type="text" name="search" style="color: blue;">
+        <input type="submit" name="search" class="btn btn-success">
+    </form>
     <br>
     <table style="border: 2px solid black" bgcolor="gray">
         <tr align="center" style="border: 2px solid black" >

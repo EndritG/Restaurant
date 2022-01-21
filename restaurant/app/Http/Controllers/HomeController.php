@@ -79,7 +79,6 @@ public function orderconfirm(Request $request)
         $data->foodname=$foodname;
         $data->price=$request->price[$key];
         $data->quantity=$request->quantity[$key];
-
         $data->name=$request->name;
         $data->phone=$request->phone;
         $data->address=$request->address;
